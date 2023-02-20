@@ -1,0 +1,61 @@
+
+  body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    color: #444444;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to right, #007afd2f, #e94e0049, #97379147);
+    background-color: rgba(90, 135, 207, 0.063);
+    
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .header img {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .header h1 {
+    display: inline-block;
+    font-size: 36px;
+    color: #007bfd;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+
+  ul  {
+    list-style: disc; /* sets the bullet point style */
+    padding-left: 20px; /* adds some padding to the left */
+    font-size: 18px; /* sets the font size */
+    line-height: 1.5; /* sets the line height */
+  }
+  ol {
+    padding-left: 20px; /* adds some padding to the left */
+    font-size: 18px; /* sets the font size */
+    line-height: 1.5; 
+  }
